@@ -1,6 +1,6 @@
-# AutomatizationHook
+# AutomationHook
 
-**AutomatizationHook** is a Solidity smart contract for automating on-chain actions in response to Uniswap v4 trading activity. It enables permissionless automation by invoking a configurable target contract on every swap, using pool trading as a decentralized "power source" for automation. This helps keep liquidity active and concentrated, making pools more attractive to arbitrageurs and traders.
+**AutomationHook** is a Solidity smart contract for automating on-chain actions in response to Uniswap v4 trading activity. It enables permissionless automation by invoking a configurable target contract on every swap, using pool trading as a decentralized "power source" for automation. This helps keep liquidity active and concentrated, making pools more attractive to arbitrageurs and traders.
 
 ## Key Features
 
@@ -41,7 +41,7 @@ If using automated rebalancing, the manager contract should implement the requir
 
 ## File Structure
 
-- `AutomatizationHook.sol`: Main automation contract.
+- `AutomationHook.sol`: Main automation contract.
 - `Rebalance.sol`: Example manager contract for automated liquidity rebalancing.
 
 ## License

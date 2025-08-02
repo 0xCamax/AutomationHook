@@ -14,7 +14,7 @@ interface IManager {
     function outOfRange() external view returns(bool);
 }
 
-contract AutomatizationHook is Ownable, BaseHook {
+contract AutomationHook is Ownable, BaseHook {
     address payable target;
     IManager manager;
 
